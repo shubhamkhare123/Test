@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test cases for first Module">
+		<classes>
+			<class name="com.testcases.LoginTest"></class>
+			<class name="com.testcases.AdvanceTest"></class>
+		</classes>
+
+	</test> <!-- Test -->
+
+
+	<test thread-count="5" name="Test cases for second Module">
+		<packages>
+			<package name="com.testcases.secondModule"></package>
+		</packages>
+
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test cases for new Module">
+		<packages>
+			<package name="com.testcases"></package>
+		</packages>
+
+	</test>
+
+	<test thread-count="5" name="Test cases for third Module">
+		<classes>
+			<class name="com.testcases.LoginTest"></class>
+			<class name="com.testcases.AdvanceTest"></class>
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test cases for fourth Module">
+		<classes>
+			<class name="com.testcases.LoginTest"></class>
+			<class name="com.testcases.AdvanceTest"></class>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
